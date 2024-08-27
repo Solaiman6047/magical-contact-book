@@ -2,7 +2,7 @@ from MagicalContact import MagicalContact
 from MagicalCreature import MagicalCreature
 from WitchAndWizard import WizardOrWitch
 class MagicalContactBook:
-    _contacts = []  # Use a single underscore for class-level attribute
+    _contacts = []  
 
     @classmethod
     def add_contact(cls, contact):
